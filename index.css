@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+body{
+    background-color: #eeee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px #635050ee;
+}
+.logo{
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 7px;
+margin-right: 45px;
+}
+
+nav ul li a{
+    margin-inline: 22px;
+    text-decoration: none;
+   color: black;
+   font-size: 20px;
+   }
+.fa-solid ,.fa-cart-shopping{
+    font-size: 22px;
+   
+}
+nav .logo{
+    margin-left: 22px;
+    font-size: 24px;
+}
+ul li #Home{
+    color: rgb(5, 147, 147);
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+ul li i:hover{
+    color:rgb(2, 164, 164);
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+
+}
+.main .mainText{
+    margin-top: 144px;
+    font-size: 24px;
+}
+.mainText h1{
+    font-size: 64px;
+
+}
+.mainText .top{
+    color:rgb(4, 138, 138)
+}
+.mainText button{
+    width: 145px;
+    height: 40px;
+    background-color: rgb(4, 140, 140);
+    border: none;
+    font-size: 22px;
+    color: white;
+}
+.mainText button:hover{
+    border: 2px solid  rgb(4, 140, 140) ;
+    background-color: white;
+    color:  rgb(4, 140, 140);
+}
+.trend h1{
+    text-align: center;
+    padding: 33px;
+    margin-top:32px;
+
+}
+.head span{
+    color: rgb(2, 164, 164);
+}
+.card{
+    display: flex;
+    justify-content: center;
+
+}
+ .crd{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 11px;
+    }
+ .crd img{
+        width: 85%;
+        padding: 22px;
+        border-radius: 31px;
+        
+}
+.crdtext{
+    margin-left: 21px;
+    padding:8px;
+
+}
+.crdtext button{
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(5, 147, 147);
+    color: white;
+    margin-top: 11px;
+    font-size: 19px;
+}
+.crdtext i{
+    color: rgb(181, 154, 0);
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-inline: 22px;
+    border-radius: 11px;
+}
+.blog img{
+    width: 85%;
+    padding: 22px;
+}
+.blogText{
+    padding: 22px;
+    margin-top: 33px;
+}
+.blogText a{
+    width: 130px;
+    padding: 4px;
+    background-color: rgb(4, 136, 136);
+    color:white;
+    font-size: 18px;
+    height: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    top: 22px;
+
+}
+.blog :hover{
+    transition:all;
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.6s;
+    }
+.blog a :hover{
+        transition:all;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.6s;
+        width: 520px;
+        height: 320px;
+}
+.letter{
+    background-color: rgb(2, 2, 66);
+    color: white;
+    display: flex;
+    height: 110px;
+    justify-content: space-between;
+    
+}
+.inp{
+    display: flex;
+}
+.inp input{
+    width:330px;
+    height: 30.5px;
+    
+    outline: none;
+    font-size: 18px;
+}
+.inp button{
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: rgb(2, 173, 173);
+    border:none;
+    margin-right: 0 20px;
+    font-size: 18px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+.footer .footerText{
+    margin-inline: 85px;
+}
+.footerText p{
+    margin-top:11px ;
+}
+.letterText ,.inp input,.inp button{
+    margin-top: 20px;
+    
+}
+/* about us */
+.aboutus{
+   background-color: rgb(11, 11, 93); 
+   color: white;
+   padding: 21px;
+   font-size: 22px;
+   overflow: hidden;
+}
+.me{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   width: 67%;
+   padding: 33px;
+   background-color: white;
+   margin-left: 18%;
+   margin-top: 5%;
+
+}
+.me img{
+    height: 500px;
+    object-fit: cover;
+
+ 
+}
+.me .aboutText p{
+    width: 500px;
+}
+.about{
+    display: none;
+}
+.contactus{
+   background-color: rgb(11, 11, 93); 
+   color: white;
+   padding: 21px;
+   font-size: 22px;
+   overflow: hidden;
+}
+.contactme{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   width: 67%;
+   padding: 33px;
+   background-color: white;
+   margin-left: 18%;
+   margin-top: 5%;
+
+}
+.contactme img{
+    height: 500px;
+    object-fit: cover;
+
+ 
+}
+.contactme .contactText p{
+    width: 500px;
+}
+.contact{
+    display: none;
+  
+}
